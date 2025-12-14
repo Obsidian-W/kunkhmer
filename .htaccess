@@ -12,5 +12,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /kunkhmer/index.php [L]
 </IfModule>
+php_value upload_max_filesize 16M
 
 # END WordPress
